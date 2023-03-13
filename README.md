@@ -1,7 +1,7 @@
 # pet-dev-shop
 Project made to test my skills with Node + Typescript
 
-### Global Pprerequisites
+### Global Prerequisites
 `npm i -g nodemon typescript ts-node`
 
 ### Instalation
