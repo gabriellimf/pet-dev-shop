@@ -6,7 +6,7 @@ const router = Router();
 
 //PagesControllers
 router.get('/', PageController.home);
-router.get('/dogs', PageController.dogs);
+router.get('/dogs', PageController.default);
 router.get('/cats', PageController.cats);
 router.get('/fishes', PageController.fishes);
 
