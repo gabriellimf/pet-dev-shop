@@ -1,11 +1,11 @@
 type MenuOptions = '' | 'all' | 'dog' | 'cat' | 'fish';
 
-export const createMenuObject = (activeMenu: MenuOptions) => {
+function createMenuObject(activeMenu: MenuOptions) {
     let returnObject = {
         all: false,
         dog: false,
         cat: false,
-        fish: false,
+        fish: false
     }
 
     if(activeMenu !== '') {
@@ -13,4 +13,6 @@ export const createMenuObject = (activeMenu: MenuOptions) => {
     }
 
     return returnObject;
-};
+}
+
+export default createMenuObject
